@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Prime Travel Deals </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="datepicker/css/datepicker3.css" rel="stylesheet">
+
+
+    <style type="text/css">
+
+        body {
+          padding-top: 50px;
+        }
+        .starter-template {
+          padding: 40px 15px;
+          text-align: center;
+        }
+
+        .container {
+            width: 1000px !important;
+        }
+
+        .panel {
+         /*   margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+            box-shadow: 0 1px 1px rgba(0,0,0,.05);*/
+          }
+
+          .airlinelogo {
+              height: 39px;
+              width: 46px;
+          }
+
+       
+          .autocomplete-suggestions 
+              { 
+                  border: 1px solid #999; 
+                  background: #FFF; 
+                  cursor: default; 
+                  overflow: auto; 
+                  -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+
+    /* input { font-size: 28px; padding: 10px; border: 1px solid #CCC; display: block; margin: 20px 0; } */
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="container" name="airsearch">
+      <div class="row">
+        <div class="col-md-12">
+            <form class="form-inline" role="form" name="searchform">
+  
+              <div class="form-group">
+                <input type="text" name="q" style="width: 250px;" id="from" class="input-sm form-control"  placeholder="From">
+              </div>
+
+              <div class="form-group">              
+                <input type="text" name="q" style="width: 250px;"  class="input-sm form-control" id="to" placeholder="To">
+              </div>
+              
+              <div class="form-group" id="sandbox-container">
+
+                    <div class="input-daterange input-group" id="datepicker">
+                          <input type="text" id="dtFrom"  class="input-sm form-control" name="start" />
+                          <span class="input-group-addon">to</span>
+                          <input type="text" id="dtTo" class="input-sm form-control" name="end" />
+                    </div>
+              </div>
+
+              <button type="submit" name="startsearch" class="btn  btn-warning">Search</button>
+            </form>
+        </div>
+
+        <hr> 
+      </div> <!-- Eof search panel row -->
+
+      <hr>
+
+      <div class="row">
+          <div class="col-md-12" id="searchresult">
+
+          </div>
+      </div>
+
+    </div><!-- /.container -->
+
+    <script type="text/template" id="template-loader">
+
+        
+        <div style="padding:30px;">        
+          <p style="text-align: center;">
+            <img src="loader.gif">
+          </p>
+        </div>
+
+    </script>
+
+    <script type="text/template" id="template-result">
+
+
+      <%  console.log('Render template: ', data[0] )  %>
+
+      <% _.each(data[0].data, function(item, k){ %> 
+
+          <%  console.log(data[0].search.from); %>
+
+          <% if(_.isNull(item.ArrivalAirport) ) return; %>
+
+          <div class="panel panel-default">
+            <div class="panel-body">
+
+                  <div class="col-md-2"> 
+                      <a href="#"> <h3 style="text-align: center;"> <%= item.price  %> $ </h3> </a>
+                      <br>
+                   <P style="text-align:center;">   <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-earphone"></span>  Call </button> </p>
+                  </div>
+
+                  <div class="col-md-8">
+    
+                          <div>  
+                            <div style="padding-left: 40px;"> 
+                                <p class="text-muted">  
+                                    <%=  moment(data[0].search.dtfrom).format("dddd, MMM DD")   %>  
+                                </p>
+                            </div>   
+
+                            <div class="pull-left" style="padding:10px;"><img src="img/from.png"></div> 
+                            <div> <small> Depart : <%= item.DepartureTime  %> </small>  - <%= item.DepartureAirportName  %>  </div> 
+                            <div> <small> Arrival : <%= item.ArrivalTime  %> </small>  - <%= item.ArrivalAirport  %>  </div>
+                          </div>
+                          <hr>
+                          <div>
+                            <div style="padding-left: 40px;">  
+                                <p class="text-muted">
+                                  <%=  moment(data[0].search.dtto).format("dddd, MMM DD")   %>  
+                                </p>
+                            </div>   
+                            <div class="pull-left" style="padding:10px;"><img src="img/to.png"></div>
+                            <div><small> Depart : <%= item.DepartureTime1 %> </small>   - <%= item.DepartureAirportName1 %> </div>
+                            <div><small> Arrival : <%= item.ArrivalTime1 %> </small>  - <%= item.ArrivalAirport1 %> </div>
+                          </div>
+                  </div>
+
+                  <% if(k !==2) { %>
+                  <div class="col-md-2">
+                      <img class="airlinelogo" src="<%= item.airlineImage %>">
+                  </div>
+                  <div> <p class="lead" > <%= item.airlineName  %> </p>  </div>
+                  <% } %>
+
+            </div>
+          </div>
+
+      <% }); %>
+
+    </script>
+
+
+    <script type="text/javascript" src="js/underscore.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/backbone.js"></script>
+    <script type="text/javascript" src="js/moment.js"></script>
+
+    <script type="text/javascript" src="datepicker/js/bootstrap-datepicker.js"></script>
+
+    <script type="text/javascript" src="js/jquery.autocomplete.js" ></script>
+
+
+
+    <script type="text/javascript">
+
+      $(document).ready(function() {
+
+          console.log('Document ready !!!');
+
+          var _from = null;
+          var _to = null;
+
+          var options, a;
+          options = { 
+
+                serviceUrl:'/api/iatasearch/',
+                autoSelectFirst: true,
+
+                onSelect: function(value, data){ 
+
+                    if($(this).attr("id") === 'from') {
+                        _from = value.data;
+                    }else{
+                        _to = value.data;
+                    }
+
+                    console.log('from: ', _from, 'To: ', _to)
+                }
+           }
+         
+           a = $('[name=q]').autocomplete(options);
+      
+   
+          //-- Eof Typehead 
+          $('#sandbox-container .input-daterange').datepicker({
+                format: 'yyyy-mm-dd',
+                multidate: true,
+                todayHighlight: true
+          });
+          
+          //--
+          var Router = Backbone.Router.extend({
+                routes: {
+                    '': 'home',
+                    'search': 'search'                     
+                }
+          });
+
+         //-- Form  Button Event 
+         $( "form" ).submit(function( event ) {
+
+                  var formObj     = {};
+                  //formObj.from    = $("#from").val();
+                  //formObj.to      = $("#to").val();
+                  
+                  formObj.from    = _from;
+                  formObj.to      = _to;
+                
+                  formObj.dtfrom  = $("#dtFrom").val();
+                  formObj.dtto    = $("#dtTo").val();
+
+                  console.log( JSON.stringify(  formObj ));
+                  
+                  doSearch(formObj);
+                  event.preventDefault();
+          });
+
+
+            var searchCollection = Backbone.Collection.extend({
+                url: 'api/search'
+            });
+
+
+           //-- DoSearch Post data 
+           doSearch = function(data) {
+
+               var template = _.template($('#template-loader').html(), {});
+               $("#searchresult").html(template);
+
+                var search  = new searchCollection();  
+
+                search.fetch({data: data, 
+                     type: 'POST', 
+                     success: function(d){
+                         //console.log('success', d);
+                         _searchresult.render(d);
+                     },
+                     error : function(d) {
+                        console.log('Error !!!');
+                     }
+                });
+
+            }
+
+
+          var ResultView = Backbone.View.extend({
+          el: '#searchresult',
+          render : function(data) {
+              
+              //console.log('Search result has been rendered !!!', JSON.stringify(data)  );
+              var template = _.template($('#template-result').html(), {data: data.toJSON() });
+              this.$el.html(template);
+          }
+
+          });
+
+          var router = new Router();
+          var _searchresult = new ResultView();
+
+
+          router.on('route:home', function () {
+              
+          });
+
+          Backbone.history.start();
+
+
+      });
+
+
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.text1 { position:absolute;   top:150px; left:100px;  color: rgba(245,245,245,1.00);  z-index:10111111;  font-size:29px }
+
+.price1{ background-color: rgba(42,39,39,1.00); width:160px; height:160px;   position: absolute; top:  140px; right: 150px; z-index: 10111111;  color: rgba(255,255,255,1.00); text-align:center; padding-top:20px;   opacity: 0.9; filter: alpha(opacity=90); border-radius: 200px 200px 200px 200px; -moz-border-radius: 200px 200px 200px 200px; -webkit-border-radius: 200px 200px 200px 200px; border: 3px solid #9e969e}
+
+.price1:hover { background: rgba(177,8,13,1.00); width:180px; height:180px; border-color: rgba(232,11,15,1.00)}
+
+ 

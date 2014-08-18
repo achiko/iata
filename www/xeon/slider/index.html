@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Slider Carousel Template | PrepBootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+ <ul class="nav nav-pills nav-justified">
+            <li data-target="#carousel1" data-slide-to="0" class="active" >
+                <a href="#">About<small> </small></a>
+            </li>
+            <li data-target="#carousel1" data-slide-to="1">
+                <a href="#">Projects<small> </small></a>
+            </li>
+            <li data-target="#carousel1" data-slide-to="2">
+                <a href="#">Portfolio<small> </small></a>
+            </li>
+             <li data-target="#carousel1" data-slide-to="3">
+                <a href="#">Portfolio<small> </small></a>
+            </li>
+                     
+        </ul>
+<p>
+<p>
+<!-- Slider Carousel - START -->
+<div class="container" >
+    <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div style="width:1163px; height:360px;  border-radius: 9px; background-color:#9CF"></div>
+                <div class="carousel-caption">
+                    <h3>text foto </h3>
+                    <p>
+                       text  
+                    </p>
+                </div>
+            </div>
+            
+            
+            
+            <div class="item">
+                <div style="width:1163px; height:360px; border-radius: 9px; background-color:#9CF"></div>
+                <div class="carousel-caption">
+                    <div class="col-lg-12 text-center v-center" style="font-size: 39pt;">
+                       <h3>text foto </h3>
+                    <p>
+                       text  
+                    </p>
+                    </div>
+                </div>
+            </div>
+            
+            
+             <div class="item">
+                <div style="width:1163px; height:360px; border-radius: 9px; background-color:#9CF"></div>
+                <div class="carousel-caption">
+                    <div class="col-lg-12 text-center v-center" style="font-size: 39pt;">
+                       <h3>text foto </h3>
+                    <p>
+                       text  
+                    </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="item">
+                <div style="width:1163px; height:360px;  box-shadow: 10px 10px 5px #888888; border-radius:9px; background-color: #9CF"></div>
+                <div class="carousel-caption">
+                    <h3>teqst</h3>
+                    <p>
+                        text 
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+    </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/Content/font-awesome/css/font-awesome.min.css" />
+
+<style>
+body {
+    padding-top: 0px;
+}
+#carousel1 .nav a small {
+    display: block;
+}
+#carousel1 .nav {
+    background: #eee;
+}
+.nav-justified > li > a {
+    border-radius: 15px;
+}
+.nav-pills > li[data-slide-to="0"].active a {
+    background-color: #09F; box-shadow: 10px 10px 5px #888888;
+}
+.nav-pills > li[data-slide-to="1"].active a {
+    background-color: #09F;    box-shadow: 10px 10px 5px #888888;
+}
+.nav-pills > li[data-slide-to="2"].active a {
+    background-color: #09F;  box-shadow: 10px 10px 5px #888888;
+}
+.nav-pills > li[data-slide-to="3"].active a {
+    background-color: #09F;  box-shadow: 10px 10px 5px #888888;
+}
+</style>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('#carousel1').carousel({
+            interval: 8000
+        });
+
+        var clickEvent = false;
+
+        $('#carousel1').on('click', '.nav a', function () {
+            clickEvent = true;
+            $('.nav li').removeClass('active');
+            $(this).parent().addClass('active');
+        }).on('slid.bs.carousel', function (e) {
+            if (!clickEvent) {
+                var count = $('.nav').children().length - 1;
+                var current = $('.nav li.active');
+                current.removeClass('active').next().addClass('active');
+                var id = parseInt(current.data('slide-to'));
+                if (count == id) {
+                    $('.nav li').first().addClass('active');
+                }
+            }
+            clickEvent = false;
+        });
+    });
+</script>
+<!-- Slider Carousel - END -->
+
+</div>
+
+</body>
+</html>

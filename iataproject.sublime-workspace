@@ -1,0 +1,1288 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"req",
+				"request"
+			],
+			[
+				"u",
+				"utils"
+			],
+			[
+				"sear",
+				"searchObject"
+			],
+			[
+				"coo",
+				"cookie_string"
+			],
+			[
+				"job",
+				"newJobId"
+			],
+			[
+				"new",
+				"newjobid"
+			],
+			[
+				"jo",
+				"jobOwnerPersonData"
+			],
+			[
+				"ins",
+				"inspect"
+			],
+			[
+				"va",
+				"var"
+			],
+			[
+				"sen",
+				"send"
+			],
+			[
+				"_ref",
+				"_ref1"
+			],
+			[
+				"pr",
+				"profiles"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"co",
+				"collection"
+			],
+			[
+				"Ca",
+				"CampaingListView"
+			],
+			[
+				"Campai",
+				"CampaignList"
+			],
+			[
+				"Cam",
+				"CampaingListView"
+			],
+			[
+				"ne",
+				"networks_table"
+			],
+			[
+				"Net",
+				"Network"
+			],
+			[
+				"template-",
+				"template-networklist"
+			],
+			[
+				"Conta",
+				"ContactPerson"
+			],
+			[
+				"Web",
+				"WebsiteUrl"
+			],
+			[
+				"Cre",
+				"CreationDate"
+			],
+			[
+				"te",
+				"template"
+			],
+			[
+				"Netw",
+				"NetworkListCollection"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"net",
+				"NetworkName"
+			],
+			[
+				"cam",
+				"Campaigns"
+			],
+			[
+				"pos",
+				"post"
+			],
+			[
+				"Campa",
+				"Campaign"
+			],
+			[
+				"qu",
+				"query_insert_new_campaing"
+			],
+			[
+				"ca",
+				"campaings_table"
+			],
+			[
+				"dir",
+				"dirsnames"
+			],
+			[
+				"sty",
+				"styles"
+			],
+			[
+				"col",
+				"col-md-12"
+			],
+			[
+				"col-s",
+				"col-sm-2"
+			],
+			[
+				"bt",
+				"btn-default"
+			],
+			[
+				"Date",
+				"DateCreated"
+			],
+			[
+				"sub",
+				"SubdirName"
+			],
+			[
+				"js",
+				"jsondata"
+			],
+			[
+				"c",
+				"campaings_table"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"add",
+				"addEvent"
+			],
+			[
+				"stat",
+				"status_message"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"sq",
+				"scoreupdatequerises"
+			],
+			[
+				"Sli",
+				"SlipDetailID"
+			],
+			[
+				"ga",
+				"gameresult"
+			],
+			[
+				"Game",
+				"GameID"
+			],
+			[
+				"Ga",
+				"Gameresilt"
+			],
+			[
+				"Res",
+				"ResultModel"
+			],
+			[
+				"err",
+				"ErroCode"
+			],
+			[
+				"se",
+				"send"
+			],
+			[
+				"game",
+				"gameid"
+			],
+			[
+				"H",
+				"HomeTeam"
+			],
+			[
+				"main",
+				"maincontainer"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"sugg",
+				"Suggest"
+			],
+			[
+				"edi",
+				"editSuggetSaveResult"
+			],
+			[
+				"cu",
+				"currentTarget"
+			],
+			[
+				"wo",
+				"wordid"
+			],
+			[
+				"_su",
+				"_suggest"
+			],
+			[
+				"Sugg",
+				"SuggestEditWordModel"
+			],
+			[
+				"back",
+				"Backbone"
+			],
+			[
+				"word",
+				"wordid"
+			],
+			[
+				"a",
+				"action"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"su",
+				"suggestEdit"
+			],
+			[
+				"sug",
+				"Suggest"
+			],
+			[
+				"Di",
+				"DictType"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"has",
+				"hashString"
+			],
+			[
+				"ke",
+				"keypress"
+			],
+			[
+				"the",
+				"theKey"
+			],
+			[
+				"geoob",
+				"geoobj"
+			],
+			[
+				"ge",
+				"geoobj2"
+			],
+			[
+				"Fa",
+				"FavoriteCollection"
+			],
+			[
+				"wor",
+				"wordid"
+			],
+			[
+				"icon",
+				"icon-edit"
+			],
+			[
+				"parse",
+				"parseFloat"
+			],
+			[
+				"par",
+				"parseFloat"
+			],
+			[
+				"pa",
+				"parseFloat"
+			],
+			[
+				"orde",
+				"OrderBookApi"
+			],
+			[
+				"set",
+				"setInterval"
+			],
+			[
+				"cry",
+				"cryptonitOtions"
+			],
+			[
+				"box",
+				"boxdelete"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"to",
+				"toJSON"
+			],
+			[
+				"ch",
+				"checked"
+			],
+			[
+				"Site",
+				"SitesListingView"
+			],
+			[
+				"si",
+				"newsSiteListing"
+			],
+			[
+				"news",
+				"newsschema"
+			],
+			[
+				"d",
+				"db"
+			],
+			[
+				"db",
+				"dbconfig"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"შ",
+				"შოუ-ბიზნესი"
+			],
+			[
+				"lo",
+				"LoadNews"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"image",
+				"imageObj"
+			],
+			[
+				"ima",
+				"imageObj"
+			],
+			[
+				"რე",
+				"რელიგია"
+			],
+			[
+				"nes",
+				"newsDate"
+			],
+			[
+				"ime",
+				"ImediDateConvert"
+			],
+			[
+				"s",
+				"split"
+			],
+			[
+				"ს",
+				"სპორტი"
+			],
+			[
+				"img",
+				"imgsrc"
+			],
+			[
+				"fo",
+				"foreign"
+			],
+			[
+				"pal",
+				"PalitraDateConverter"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"m",
+				"mainArticle"
+			],
+			[
+				"Loa",
+				"Loaddata"
+			],
+			[
+				"doc",
+				"docsCount"
+			],
+			[
+				"Ne",
+				"News"
+			],
+			[
+				"b",
+				"blockname"
+			],
+			[
+				"dt",
+				"dtArr"
+			],
+			[
+				"un",
+				"Undefined"
+			],
+			[
+				"is",
+				"isundefined"
+			],
+			[
+				"Da",
+				"DateConvert"
+			],
+			[
+				"conver",
+				"DateConvert"
+			],
+			[
+				"mai",
+				"mainItem"
+			],
+			[
+				"lin",
+				"link"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"file": "tmp.txt",
+			"file_size": 0,
+			"file_write_time": 130503493429462681,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "tmp.txt"
+			}
+		},
+		{
+			"file": "iata.js",
+			"settings":
+			{
+				"buffer_size": 3765,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "skydar/wizzair.js",
+			"settings":
+			{
+				"buffer_size": 2854,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "skydar/wizz.js",
+			"settings":
+			{
+				"buffer_size": 2822,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "log.txt",
+			"settings":
+			{
+				"buffer_size": 61680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "finalpage.html",
+			"settings":
+			{
+				"buffer_size": 176645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 1588,
+				"line_ending": "Windows",
+				"name": "server.js"
+			}
+		}
+	],
+	"build_system": "Packages/User/eSchool_Deploy.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"reid",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reide",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"repl:no",
+				"SublimeREPL: Node"
+			],
+			[
+				"repl:pow",
+				"SublimeREPL: PowerShell"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"tod",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublimelin",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"default",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"lint",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"sublimel",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"",
+				"Set Syntax: R"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 62.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/nodeprojects/iata/log.txt",
+		"/D/nodeprojects/iata/app.js",
+		"/D/nodeprojects/iata/content/wizcasperFinal.png",
+		"/D/nodeprojects/iata/node_modules/iata.js",
+		"/D/nodeprojects/iata/iata.js",
+		"/D/nodeprojects/iata/skydar/tmp.txt",
+		"/D/nodeprojects/iata/skydar/iata.js",
+		"/D/nodeprojects/iata/skydar/wizzair.js",
+		"/D/nodeprojects/iata/iata.html",
+		"/D/nodeprojects/iata/skydar/tmpk.txt",
+		"/D/nodeprojects/iata/skydar/wizz.js",
+		"/D/vagrant/node/app/fed/client/front.html",
+		"/D/vagrant/node/Vagrantfile",
+		"/D/vagrant/node/app/fed/client/js/app.js",
+		"/D/vagrant/node/app/fed/client/test.html",
+		"/D/vagrant/node/app/fed/lib/addnewjob.js",
+		"/D/vagrant/node/app/fed/server.js",
+		"/D/vagrant/node/app/fed/server.coffee",
+		"/D/vagrant/node/app/fed/client/back.html",
+		"/D/vagrant/node/app/fed/clearjobs.js",
+		"/D/wptheme/index.html",
+		"/D/vagrant/node/app/fed/back.js",
+		"/D/wptheme/indexold.php",
+		"/D/wptheme/index.php__",
+		"/D/wptheme/index.php",
+		"/D/wptheme/temp/index.php",
+		"/D/wptheme/temp/functions.php",
+		"/D/wptheme/temp/content.php",
+		"/D/wptheme/temp/header.php",
+		"/D/wptheme/temp/page.php",
+		"/D/wptheme/style.css",
+		"/D/wptheme/languages/testtheme.pot",
+		"/C/Program Files/nodejs/heroku/app3.js",
+		"/C/Program Files/nodejs/heroku/web/admin.html",
+		"/D/vagrant/node/app/server.js",
+		"/D/vagrant/node/app/server.coffee",
+		"/D/vagrant/node/app/client/js/app.js",
+		"/D/vagrant/node/app/client/front.html",
+		"/D/vagrant/node1/app/achiko.js",
+		"/D/vagrant/node2/Vagrantfile",
+		"/D/vagrant/node/Vagrantfile - Copy",
+		"/D/vagrant/node1/app/server.coffee",
+		"/D/vagrant/node1/app/package.json",
+		"/D/vagrant/node1/Vagrantfile",
+		"/D/vagrant/node1/vgrantfile",
+		"/D/vagrant/node/app/node_modules/level/node_modules/level-packager/node_modules/levelup/lib/levelup.js",
+		"/C/Users/Archil/Downloads/app (1).js",
+		"/C/Users/Archil/Downloads/app.js",
+		"/D/xampp/htdocs/redirect1/admin.php",
+		"/D/xampp/htdocs/redirect1/web/app/Collections/CampaignsCollection.js",
+		"/D/xampp/htdocs/redirect1/my.log",
+		"/D/xampp/htdocs/redirect1/web/sticky-footer-navbar.css",
+		"/D/xampp/htdocs/redirect1/web/require.js",
+		"/D/xampp/htdocs/redirect1/require.php",
+		"/D/xampp/htdocs/redirect1/web/app/templates/CampaignList.html",
+		"/D/xampp/htdocs/redirect1/web/app/router.js",
+		"/D/xampp/htdocs/redirect1/web/app/main.js",
+		"/D/xampp/htdocs/redirect1/web/app/Views/CampaignListView.js",
+		"/D/xampp/htdocs/redirect1/web/app/app.js",
+		"/D/xampp/htdocs/redirect1/web/app/text.js",
+		"/D/xampp/htdocs/redirect1/web/app/Models/CampaignsMode.js",
+		"/D/xampp/htdocs/redirect1/require.html",
+		"/D/xampp/htdocs/redirect1/web/app/Models/models.js",
+		"/D/xampp/htdocs/redirect1/web/app/Views/View.js",
+		"/D/xampp/htdocs/redirect1/web/app/models.js",
+		"/D/xampp/htdocs/redirect1/web/app/View.js",
+		"/D/xampp/htdocs/redirect1/web/app/Collections.js",
+		"/D/xampp/htdocs/redirect1/index.php",
+		"/D/xampp/htdocs/redirect1/networks.php",
+		"/D/xampp/htdocs/redirect1/campaigns.php",
+		"/D/xampp/htdocs/redirect1/config.php",
+		"/D/xampp/htdocs/redirect1/databases/db_config.ini",
+		"/D/xampp/htdocs/redirect1/lib/dir.php",
+		"/D/xampp/htdocs/redirect1/lib/index.php",
+		"/D/xampp/htdocs/redirect1/install.php",
+		"/D/xampp/htdocs/redirect1/config/test_page.ini",
+		"/D/xampp/htdocs/redirect1/config/backup.ini",
+		"/D/xampp/htdocs/redirect1/vendors/logger.php",
+		"/D/xampp/htdocs/redirect1/lib/restlib.php",
+		"/D/xampp/htdocs/redirect1/mylog.txt",
+		"/D/xampp/htdocs/redirect1/slim.php",
+		"/D/xampp/htdocs/redirect1/services/listdir.php",
+		"/D/xampp/htdocs/redirect1/test.txt",
+		"/D/xampp/htdocs/redirect1/readme",
+		"/D/nodeprojects/bookmakersimple/web/main.html",
+		"/D/nodeprojects/bookmakersimple/app.js",
+		"/D/nodeprojects/bookmakersimple/lib/Bookie/Calculations.js",
+		"/D/nodeprojects/bookmakersimple/web/admin.html",
+		"/D/nodeprojects/bookmakersimple/mysql.js",
+		"/D/nodeprojects/bookmakersimple/lib/Bookie/BookieUsers.js",
+		"/D/nodeprojects/bookmakersimple/lib/Bookie/GameLoader.js",
+		"/D/nodeprojects/bookmakersimple/lib/Bookie/FrontReports.js",
+		"/D/nodeprojects/bookmakersimple/query.txt",
+		"/D/nodeprojects/bookmakersimple/test1.js",
+		"/D/nodeprojects/bookmakersimple/totalbtc.js",
+		"/D/nodeprojects/bookmakersimple/web/index1.html",
+		"/D/nodeprojects/bookmakersimple/rezo.js",
+		"/D/nodeprojects/bookmakersimple/lib/Payments/transactionfinder.js",
+		"/D/nodeprojects/bookmakersimple/lib/Bookie/calculations.js",
+		"/D/nodeprojects/bookmakersimple/lib/Reports/index.js",
+		"/C/Program Files/nodejs/heroku/mp3.js",
+		"/C/Program Files/nodejs/heroku/web/main_last.html",
+		"/C/Program Files/nodejs/heroku/web/main.html",
+		"/D/xampp/htdocs/redirect1/linkrotator.php",
+		"/C/Program Files/nodejs/heroku/web/selection.html",
+		"/C/Program Files/nodejs/heroku/test.html",
+		"/C/Program Files/nodejs/heroku/test2.html",
+		"/C/Program Files/nodejs/heroku/langdetect.js",
+		"/C/Program Files/nodejs/heroku/web/js/geo_kb.js",
+		"/C/Program Files/nodejs/heroku/web/js/zepto.min.js",
+		"/C/Program Files/nodejs/heroku/web/test.html",
+		"/C/Program Files/nodejs/heroku/node_modules/googlespell/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js",
+		"/C/Program Files/nodejs/heroku/web/js/Backbone/backbone-localstorage.js",
+		"/C/Program Files/nodejs/heroku/web/bootstrap/css/bootstrap.css",
+		"/C/Program Files/nodejs/heroku/app.js",
+		"/C/Program Files/nodejs/heroku/app2.js",
+		"/D/nodeprojects/orderbook/app.js",
+		"/D/nodeprojects/orderbook/ApiLoader.js",
+		"/D/nodeprojects/orderbook/testjs/test.js",
+		"/D/nodeprojects/orderbook/web/index.html",
+		"/D/nodeprojects/orderbook/test.js",
+		"/D/nodeprojects/orderbook/test1.js",
+		"/D/nodeprojects/orderbook/.gitignore",
+		"/D/DropBox/Dropbox/inetpub/wwwroot/webinar/index.html",
+		"/C/Program Files/nodejs/newslee/config.js",
+		"/C/Program Files/nodejs/newslee/main.js",
+		"/C/Program Files/nodejs/newslee/cron.js",
+		"/C/Program Files/nodejs/newslee/app.js"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Program Files\\nodejs\\cashpot",
+			"D:\\xampp\\htdocs\\zencard",
+			"C:\\Program Files\\nodejs\\cashpot",
+			"D:\\xampp\\htdocs\\redirect",
+			"D:\\eclipse\\workspace\\eschoolWEB,D:\\eclipse\\workspace\\eschoolWEB\\WebContent\\app",
+			"D:\\eclipse\\workspace\\eschoolWEB"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"search",
+			"viewportSize",
+			"touch",
+			"job",
+			"insert",
+			"uuid",
+			"profile",
+			"console.log",
+			"job",
+			"__indexOf",
+			"di",
+			"Job req data:",
+			"profile:sync",
+			"render_next_card",
+			"vote",
+			"ASSETS",
+			"__indexOf",
+			"vote",
+			"ps",
+			"ps.",
+			"deck:profiles",
+			"\ndec",
+			"\ndec.profiles",
+			"profile:update",
+			"profile:sync",
+			"prf",
+			"deck:profiles",
+			"Fetched",
+			"profiles",
+			"vote",
+			"deck:profiles",
+			"Fetched",
+			"Fetched ",
+			"profiles",
+			"Fetched",
+			"Fetched ",
+			"profile:jobs",
+			"Fetched",
+			"Fetched ",
+			"profile:sync",
+			"post",
+			"height=\"642\"",
+			"http://jobhunt.co.il/jobswipe/upload",
+			"post",
+			"jobhunt.co.il",
+			"jobhunt.co.il/",
+			"http://jobhunt.co.il/",
+			"http://jobhunt.co.il/jobswipe/",
+			"http://jobhunt.co.il/jobswipe/upload",
+			"post",
+			"Jobs",
+			"jobs",
+			"translate3",
+			"callback",
+			"level",
+			"facebook",
+			"UpdateData",
+			"currentpage",
+			"Postparam",
+			"AddMyHomeData",
+			"District",
+			"CampaignListView",
+			"addEvent",
+			"editcapaing",
+			"today",
+			"ScanForNewCampaings",
+			"campainurl",
+			"exampleInputEmail1",
+			"_campainslist",
+			">\n",
+			"backbone",
+			"jsondata",
+			"admin_db",
+			"directoryToArray",
+			"path",
+			"td",
+			"Calculations",
+			"GameListCollection",
+			"getlist",
+			"Dosearch word",
+			"hiddensuggesttext",
+			"SuggestEditView",
+			"toolbox",
+			"dictname",
+			"suggestEdit",
+			"Panel Footer functions",
+			"keypressed",
+			"Fulltext search word",
+			"Full text Data",
+			"focus",
+			"Full",
+			"full",
+			"addfavorite",
+			"                          \n",
+			"dicionaries",
+			"Common",
+			"DictType",
+			"                                    \n",
+			"mozilla",
+			"Requested Word:",
+			"headerbuttons",
+			"cleartextbox",
+			"inputfocused",
+			"line_cnt",
+			"result-template",
+			"Requested Word",
+			"console",
+			"navigate",
+			"dounput",
+			"hits",
+			"string",
+			"String",
+			"list-group-item-text",
+			"inputfocused",
+			"Sugest: ",
+			"geoobj",
+			"favorites",
+			"myFavoriteCollection",
+			"render Object",
+			"favoritesView",
+			"FavoritesView",
+			"favoritesView",
+			"toolbox",
+			"inspect",
+			"tr_hitbtc",
+			"Show orders from",
+			"ANX status code",
+			"ANX"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"feedbacks.jpg",
+			"'",
+			"icons",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tmp.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "tmp.txt",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "iata.js",
+					"settings":
+					{
+						"buffer_size": 3765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2959,
+								2959
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1539.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "skydar/wizzair.js",
+					"settings":
+					{
+						"buffer_size": 2854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1459,
+								1459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "skydar/wizz.js",
+					"settings":
+					{
+						"buffer_size": 2822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "log.txt",
+					"settings":
+					{
+						"buffer_size": 61680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								61680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 627.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "finalpage.html",
+					"settings":
+					{
+						"buffer_size": 176645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143805,
+								143805
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 78515.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "server.js",
+					"settings":
+					{
+						"buffer_size": 1588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								546,
+								562
+							]
+						],
+						"settings":
+						{
+							"auto_name": "server.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 49.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"list_grou",
+				"node_modules/googlespell/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js"
+			],
+			[
+				"",
+				"app.js"
+			],
+			[
+				"web/js/ba",
+				"web/js/Backbone/backbone-localstorage.js"
+			],
+			[
+				"css/bootr",
+				"web/bootstrap/css/bootstrap.css"
+			],
+			[
+				"bitcoin",
+				"myadmin/bitcoin.php"
+			],
+			[
+				"bitc",
+				"myadmin/includes/functions/extra_functions/bitcoin.php"
+			],
+			[
+				"plugin",
+				"resources/themes/stylesheets/neptune/default/mixins/_background-gradient-legacy.scss"
+			],
+			[
+				"wc/st/pup",
+				"WebContent/Static/eSchool/pupil/PupilMove.js"
+			],
+			[
+				"schoo",
+				"/D/eclipse/workspace/eSchoolWeb/WebContent/Static/eSchool/pupil/PupilMove.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,126 @@
+commit 66bf63d908507f4d59b07855509aa3babf45437a
+Author: Lon Ingram <lawnsea@gmail.com>
+Date:   Mon Sep 16 16:36:48 2013 -0500
+
+    Play nice with Casper > v1.0.2
+    
+    - Call patchRequire for Casper > v1.0.2
+    - Fix hello example to work with recent Caspers
+    - Fix tests to work with old and new casper require
+    
+    Thanks to @rumca and @ucarbehlul for helping me run this one down.
+    
+    close #73
+    close #75
+
+commit 9c1b0b235bfdeb614894acb26e32d62e69d06c05
+Author: Lon Ingram <lawnsea@gmail.com>
+Date:   Mon Sep 16 16:22:26 2013 -0500
+
+    Use a spec-compliant polyfill for bind
+    
+    Casper's prototype was not compliant (see n1k0/casperjs#631). While this is
+    fixed in Casper latest, it's an issue in older versions.
+    
+    So, use mozilla's polyfill.
+
+commit bcbe054bf283342ced401543dceb14034f226bf3
+Author: Lon Ingram <lawnsea@gmail.com>
+Date:   Sat Sep 21 00:43:05 2013 -0500
+
+    Add support for child.spawnOptions
+    
+    Add a `spawnOptions` key to `options.child` that will be passed as the `options`
+    argument of `child_process.spawn` when creating a spooky instance. The default
+    is the empty object.
+    
+    Note that setting `options.child.spawnOptions.env` will pass those variables
+    *instead* of the environment of the node process. It is recommended to make sure
+    that `PATH` and friends are passed.
+    
+    close #72
+
+commit e0fbb8810d78158d1923219950208c72899499cb
+Author: Lon Ingram <lawnsea@gmail.com>
+Date:   Fri Sep 20 23:13:49 2013 -0500
+
+    Fix nested function test; add nested fn tuple test
+
+commit abd92996046ab105ae51cb252d2e2b9a5161bd3c
+Author: Lon Ingram <lawnsea@gmail.com>
+Date:   Fri Sep 20 14:13:37 2013 -0500
+
+    Serialize function values in casper options
+    
+    Serialize function and function tuple values in `options.casper` recursively.
+    
+    NOTE: `bootstrap/casper` only deserializes functions starting with 'on' and
+    those that are children of `httpStatusHandlers`.
+    
+    close #52
+
+commit daaa056e371320f2a3da7f300953057d79cc8359
+Author: Lon Ingram <lawnsea@gmail.com>
+Date:   Fri Sep 20 11:34:10 2013 -0500
+
+    Teach tests to throw if spooky emits an error
+    
+    On an `error` event, throw unless `context.spooky.swallowErrors` is truthy.
+    
+    close #47
+
+commit a46169c7b039046b30f9ae0d3ee45afa5b1dcf41
+Author: Lon Ingram <lawnsea@gmail.com>
+Date:   Thu Sep 19 15:01:37 2013 -0500
+
+    implement withFrame, withPopup, and waitForPopup
+    
+    Thanks to @asciidisco for the original idea to get this done
+    
+    close #30
+
+commit 2a5e96e72799d198188d4ecc151ca489a5f3d746
+Author: Lon Ingram <lawnsea@gmail.com>
+Date:   Mon Sep 16 00:39:15 2013 -0500
+
+    Update hello example to listen before ready
+    
+    Previously, the error handlers were registered in the constructor callback. This
+    made it difficult to diagnose and report failures before `ready` was emitted.
+    
+    Instead, listen immediately for all events.
+
+commit 5fda92ffdf59c2b5ccb1590c94b7d0cb04a7d62d
+Author: Lon Ingram <lawnsea@gmail.com>
+Date:   Mon Sep 16 00:33:11 2013 -0500
+
+    Use http transport by default in hello example
+    
+    close #62
+
+commit 95648046111220a5b7a93c826ea53cbc9be9fd3a
+Author: Lon Ingram <lon@waterfallmobile.com>
+Date:   Fri Jul 5 18:47:02 2013 -0500
+
+    Update README to point to intro wiki page
+
+commit 29c1b8ef98b4c677fe253e1c9515e482c2361e4d
+Merge: 6e40139 8a283e4
+Author: Lon Ingram <lawnsea@gmail.com>
+Date:   Fri Jul 5 06:37:10 2013 -0700
+
+    Merge pull request #67 from WoZ/fix-args-order-in-request-stream-onerror
+    
+    Invalid order of arguments was fixed in RequestStream's _onError method.
+
+commit 8a283e41101c71804c04c81e94e68f37f538c479
+Author: Dmitry Menshikov <d.menshikov@gmail.com>
+Date:   Fri Jul 5 15:40:51 2013 +0300
+
+    Invalid order of arguments was fixed in RequestStream's _onError method.
+
+commit 6e401398aac91022327b2bd83a93d29e216e0fe9
+Author: Lon Ingram <lon@waterfallmobile.com>
+Date:   Thu Jul 4 11:48:27 2013 -0500
+
+    Update README with release notes
